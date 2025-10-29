@@ -81,7 +81,7 @@ This project requires specific peripheral settings configured via the `.ioc` fil
 
 This project uses a modular structure. After generating the base project from CubeIDE:
 
-1.  **Required Files:** You need the following three files from this repository:
+1.  **Required Files:** You need the following two files from this repository:
     * `LSM6DSL.h` (Sensor driver header) -> Place in **`Core/Inc/`**
     * `main.c` (Main application logic) -> **Replace** the existing file in **`Core/Src/`**
 2.  **Build & Flash:**
