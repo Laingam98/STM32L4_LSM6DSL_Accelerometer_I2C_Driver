@@ -83,7 +83,6 @@ This project uses a modular structure. After generating the base project from Cu
 
 1.  **Required Files:** You need the following three files from this repository:
     * `LSM6DSL.h` (Sensor driver header) -> Place in **`Core/Inc/`**
-    * `LSM6DSL.c` (Sensor driver implementation) -> Place in **`Core/Src/`**
     * `main.c` (Main application logic) -> **Replace** the existing file in **`Core/Src/`**
 2.  **Build & Flash:**
     * Clean and Build the project in STM32CubeIDE.
