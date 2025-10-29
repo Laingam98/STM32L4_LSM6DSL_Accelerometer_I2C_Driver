@@ -64,7 +64,10 @@ This project requires specific peripheral settings configured via the `.ioc` fil
     * Enable **USART1** (Mode: `Asynchronous`).
     * Assign pins: `PB6` -> `USART1_RX`, `PB7` -> `USART1_TX`.
     * Set Baud Rate to `115200`.
-        ![CubeIDE Pinout View showing USART1 Configuration]()
+
+<img width="1527" height="707" alt="3" src="https://github.com/user-attachments/assets/431ebec3-9c00-4ea7-8bd8-3cb7e7acf2d6" />
+
+      
 4.  **Interrupt Configuration:**
     * Configure pin `PD11` as `GPIO_EXTI11`.
     * Enable **System Core -> NVIC -> `EXTI line[15:10] interrupts`**.
