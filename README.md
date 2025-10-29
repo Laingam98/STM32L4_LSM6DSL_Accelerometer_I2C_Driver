@@ -53,14 +53,13 @@ This project requires specific peripheral settings configured via the `.ioc` fil
 2.  **I2C Configuration:**
     * Enable **I2C2** (Mode: `I2C`, Speed: `Fast Mode`).
     * Assign pins: `PB10` -> `I2C2_SCL`, `PB11` -> `I2C2_SDA`.
-        ![CubeIDE Pinout View showing I2C2 Configuration](<img width="1507" height="700" alt="4" src="https://github.com/user-attachments/assets/37635bbc-4913-4b29-966a-6f7d815dee37" />
+        ![CubeIDE Pinout View showing I2C2 Configuration](<img width="1507" height="700" alt="4" src="https://github.com/user-attachments/assets/4170fb6b-7a89-402b-ab2d-d8b7f51054b8" />
 )
 3.  **UART Configuration:**
     * Enable **USART1** (Mode: `Asynchronous`).
     * Assign pins: `PB6` -> `USART1_RX`, `PB7` -> `USART1_TX`.
     * Set Baud Rate to `115200`.
-        ![CubeIDE Pinout View showing USART1 Configuration](<img width="1527" height="707" alt="3" src="https://github.com/user-attachments/assets/fc447e49-2152-4a1e-9ec1-fcd88161ca5f" />
-)
+        ![CubeIDE Pinout View showing USART1 Configuration]()
 4.  **Interrupt Configuration:**
     * Configure pin `PD11` as `GPIO_EXTI11`.
     * Enable **System Core -> NVIC -> `EXTI line[15:10] interrupts`**.
