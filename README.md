@@ -48,17 +48,17 @@ This project requires specific peripheral settings configured via the `.ioc` fil
     * Enable **X-CUBE-MEMS1**.
     * Select **Device MEMS1\_Applications -> Board Part AccGyr - LSM6DSL - I2C**.
 
-   (<img width="842" height="212" alt="1" src="https://github.com/user-attachments/assets/318c2c57-59a0-442f-91ac-7c5ed1795e8e" /> <img width="688" height="183" alt="2" src="https://github.com/user-attachments/assets/f87ecda7-5def-42c2-b7ce-1ba450f6669c" />
+ <img width="842" height="212" alt="1" src="https://github.com/user-attachments/assets/318c2c57-59a0-442f-91ac-7c5ed1795e8e" /> <img width="688" height="183" alt="2" src="https://github.com/user-attachments/assets/f87ecda7-5def-42c2-b7ce-1ba450f6669c" />
 
-)
+
 2.  **I2C Configuration:**
     * Enable **I2C2** (Mode: `I2C`, Speed: `Fast Mode`).
     * Assign pins: `PB10` -> `I2C2_SCL`, `PB11` -> `I2C2_SDA`.
       
       
-(<img width="1507" height="700" alt="4" src="https://github.com/user-attachments/assets/4170fb6b-7a89-402b-ab2d-d8b7f51054b8" /> 
+<img width="1507" height="700" alt="4" src="https://github.com/user-attachments/assets/4170fb6b-7a89-402b-ab2d-d8b7f51054b8" /> 
 
-)
+
 
 3.  **UART Configuration:**
     * Enable **USART1** (Mode: `Asynchronous`).
@@ -69,9 +69,9 @@ This project requires specific peripheral settings configured via the `.ioc` fil
     * Configure pin `PD11` as `GPIO_EXTI11`.
     * Enable **System Core -> NVIC -> `EXTI line[15:10] interrupts`**.
 
-(<img width="1516" height="571" alt="5" src="https://github.com/user-attachments/assets/023c0720-77fb-456c-8398-d7f0948f367a" />
+<img width="1516" height="571" alt="5" src="https://github.com/user-attachments/assets/023c0720-77fb-456c-8398-d7f0948f367a" />
 
-)
+
 5.  **Generate Code:** Save the `.ioc` file (Ctrl+S).
 
 ### 6. Code Setup & Deployment (Drop-in Ready) 🚀
